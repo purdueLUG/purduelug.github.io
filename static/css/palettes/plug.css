@@ -1,0 +1,22 @@
+/* PLUG base16 theme
+ * Modified from the base16 default dark theme
+ */
+
+:root {
+	--base00: #1a1a1a; /* Dark         | Background (Page background) */
+	--base01: #282828; /*              | Alt. background (Content background) */
+	--base02: #383838; /*              | In-text backgrounds (<pre>, <code>, <kbd>, <samp>) */
+	--base03: #585858; /*              | Muted text (:before and :marker symbols) */
+	--base04: #b8b8b8; /*              | Alt. foreground (Aside text) */
+	--base05: #e5e5e5; /*              | Foreground (Content text) */
+	--base06: #e8e8e8; /*              |  */
+	--base07: #fafafa; /* Light        |  */
+	--base08: #ab4642; /* Red          |  */
+	--base09: #dc9656; /* Orange       |  */
+	--base0A: #8e6f3e; /* Yellow       | Highlights (Selected text, <mark>) */
+	--base0B: #d8a900; /* Green        | Primary accept (logo) */
+	--base0C: #ebd99f; /* Active links | Active links (a:active, a:hover) */
+	--base0D: #beaa85; /* Links        | Links (a:link, a:visited) */
+	--base0E: #ba8baf; /*              |  */
+	--base0F: #a16946; /*              |  */
+}

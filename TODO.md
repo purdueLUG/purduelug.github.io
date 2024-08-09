@@ -1,0 +1,1 @@
+- [ ] Convert officers/notable members table to csv (https://gohugo.io/content-management/data-sources/#augment-existing-content)

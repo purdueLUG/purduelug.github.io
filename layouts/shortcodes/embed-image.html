@@ -1,0 +1,5 @@
+{{ $imgName := .Get 0 }}
+
+{{ with .Page.Resources.GetMatch $imgName }}
+    <img src="data:{{ .MediaType.Type }};base64,{{ .Content | base64Encode }}">
+{{ end }}

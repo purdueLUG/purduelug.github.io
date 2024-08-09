@@ -1,0 +1,28 @@
+baseURL = "https://purduelug.org/"
+title = "Purdue Linux Users Group"
+
+sectionPagesMenu = "main"
+copyright = "© Purdue Linux Users Group, 2024"
+
+[params]
+source = "Source available on [GitHub](https://github.com/purdueLUG/new-website)."
+
+[params.theme]
+palette = "plug"
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 2

@@ -1,0 +1,67 @@
+/* Dark theme */
+.notice {
+	--title-color: var(--fg);
+	--content-color: var(--off-fg);
+
+	--title-background-color: #069;
+	--content-background-color: #023;
+}
+
+.notice.info {
+	--title-background-color: #a50;
+	--content-background-color: #420;
+}
+
+.notice.tip {
+	--title-background-color: #363;
+	--content-background-color: #121;
+}
+
+.notice.warning {
+	--title-background-color: #800;
+	--content-background-color: #400;
+}
+
+/* Content */
+.notice {
+	padding: 18px;
+	line-height: 24px;
+	margin-bottom: 24px;
+	border-radius: 4px;
+	color: var(--content-color);
+	background: var(--content-background-color);
+}
+
+.notice p:last-child {
+	margin-bottom: 0
+}
+
+/* Title */
+.notice-title {
+	margin: -18px -18px 12px;
+	padding: 4px 18px;
+	border-radius: 4px 4px 0 0;
+	font-weight: 700;
+	color: var(--title-color);
+	background: var(--title-background-color);
+}
+
+/* Icon */
+.icon-notice {
+	display: inline-flex;
+	align-self: center;
+	margin-right: 8px;
+}
+
+.icon-notice img,
+.icon-notice svg {
+	height: 1em;
+	width: 1em;
+	fill: currentColor;
+}
+
+.icon-notice img,
+.icon-notice.baseline svg {
+	top: .125em;
+	position: relative;
+}

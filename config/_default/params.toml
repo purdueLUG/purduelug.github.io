@@ -1,0 +1,22 @@
+[about]
+title = "Purdue Linux Users Group"
+description = """
+Find us on Matrix at<br>
+[`#purduelug:boiler.social`](https://matrix.to/#/#purduelug:boiler.social)
+
+Or on IRC at<br>
+[`irc://irc.libera.chat/#purduelug`](irc://irc.libera.chat/#purduelug)
+
+Check out the [GitHub organization](https://github.com/purduelug) for some of our projects!
+"""
+
+[[socialLinks]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/PurdueLUG"
+
+[[socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+url = "mailto:officers@purduelug.org"
+
