@@ -1,4 +1,5 @@
-baseURL = "https://purduelug.org/"
+#baseURL = "https://purduelug.org/"
+baseURL = "https://purduelug.org/new-website/"
 title = "Purdue Linux Users Group"
 
 sectionPagesMenu = "main"
