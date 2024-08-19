@@ -1,8 +1,12 @@
 # Purdue Linux Users Group Site
 
-Built with Hugo, with themes derived from [risotto](https://github.com/joeroe/risotto) and [hugo-notice](https://github.com/martignoni/hugo-notice).
-See their respective theme folders for more information.
-All vendored themes have unnecessary files (such as git metadata) removed.
+Built with Hugo.
+
+## Themes
+Due to needing to modify a number of parts of the themes, they have been flattened into the site itself. See the respective [licenses](./licenses).
+
+- [risotto](https://github.com/joeroe/risotto), [license](./licenses/LICENSE-risotto.txt)
+- [hugo-notice](https://github.com/martignoni/hugo-notice), [license](./licenses/LICENSE-hugo-notice.txt)
 
 ## Building
 
