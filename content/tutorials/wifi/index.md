@@ -28,7 +28,7 @@ Click on the wireless icon in your tray area. Select "Connect to Hidden Wi-Fi Ne
 - Private Key Password: (leave blank)
 - 'PEAP' version: choose 'Version 0'.
 
-{{< embed-image settings.png >}}
+![](settings.png)
 
 Click save.
 

@@ -39,7 +39,7 @@ Then choose `Cisco Anyconnect Compatible VPN`
 
 Enter the following settings:
 
-{{< embed-image settings.png >}}
+![](settings.png)
 
 Click save, then activate the VPN in Network Manager.
 
