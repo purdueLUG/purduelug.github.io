@@ -6,7 +6,7 @@ toc: true
 ---
 
 {{< notice note >}}
-This tutorial has been copied verbaitim from the old PLUG wiki, and its contents may be out of date.
+This tutorial has been copied verbatim from the old PLUG wiki, and its contents may be out of date.
 Please submit a pull request with any updates!
 {{< /notice >}}
 
