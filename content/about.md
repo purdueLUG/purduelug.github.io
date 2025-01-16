@@ -6,7 +6,7 @@ The Purdue Linux Users Group (PLUG) is a Free/Open Source Software enthusiast cl
 Members are interested in not just Linux, but also BSD, macOS, and other software that is Free/Open Source in whole or in part.
 Our meetings generally consist of social gatherings where we get together and talk tech, presentations by members or outside parties, expositions to the public at large, etc.
 
-Our office is in Lawson B128, however we usually hold our meetings in SCHM 117.
+Our office is in Lawson B128, however we usually hold our meetings in SCHM 114.
 
 You can join our mailing list [here](https://groups.google.com/forum/#!forum/purduelug/join)
 

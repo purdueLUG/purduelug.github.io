@@ -9,6 +9,6 @@ We are a Purdue organization that supports Linux, open source software, and Unix
 
 ## Meetings
 
-We meet every week on Thursday at 6pm in SCHM 117.
+We meet every week on Thursday at 6pm in SCHM 114.
 
 ![gunter]({{% static "images/gunter.png" %}})
