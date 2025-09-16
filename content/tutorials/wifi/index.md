@@ -29,7 +29,7 @@ Click save.
 
 These instructions will allow you to connect to PAL3.0 using iwd, the default network manager in Arch Linux
 
-Edit the file `/var/lib/iwd/PAL3.0.8021x` to resemble the following (fill in your own information for identity and password)
+Edit the file `/var/lib/iwd/=50414c332e30.8021x` to resemble the following (fill in your own information for identity and password)
 
 ```
 [Security]
