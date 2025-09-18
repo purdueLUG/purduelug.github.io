@@ -1,14 +1,9 @@
 ---
 title: "Connecting to PAL3.0"
-date: "2017-03-06"
-author: "Evidlo"
+date: "2025-09-11"
+author: "wither"
 toc: true
 ---
-
-{{< notice note >}}
-This tutorial has been copied verbatim from the old PLUG wiki, and its contents may be out of date.
-Please submit a pull request with any updates!
-{{< /notice >}}
 
 ## Connect with Network Manager
 
@@ -18,23 +13,40 @@ Click on the wireless icon in your tray area. Select "Connect to Hidden Wi-Fi Ne
 - Wireless Security: WPA & WPA2 Enterprise
 - Authentication: Protected EAP (PEAP)
 - Key Type (if present): TKIP
+- Anonymous Identity: (leave blank)
+- Domain: (leave blank)
+- CA Certificate: No CA certificate is required
+- PEAP Version: Automatic
 - Phase2 Type / Inner Authentication: MSCHAPV2
 - Identity / Username: Your Purdue Login
 - Password: Your Purdue Password
-- Anonymous Identity: (leave blank)
-- Client Certificate File (if present): (None)
-- CA Certificate File: /etc/ssl/certs/AddTrust_External_Root.pem or /etc/ssl/certs/AddTrust_External_CA_Root.pem
-- Private Key File: (None)
-- Private Key Password: (leave blank)
-- 'PEAP' version: choose 'Version 0'.
 
 ![](settings.png)
 
 Click save.
 
+## Connect with iwd (iwctl)
+
+These instructions will allow you to connect to PAL3.0 using iwd, the default network manager in Arch Linux
+
+Edit the file `/var/lib/iwd/=50414c332e30.8021x` to resemble the following (fill in your own information for identity and password)
+
+```
+[Security]
+EAP-Method=PEAP
+EAP-PEAP-Phase2-Method=MSCHAPV2
+EAP-PEAP-Phase2-Identity=*Purdue Username*
+EAP-PEAP-Phase2-Password=*Purdue Password*
+
+[Settings]
+AutoConnect=true
+```
+
+After doing this, you should be able to connect to PAL by running `station *name* connect PAL3.0` in `iwctl`, where your wireless station name is found by running `device list`.
+
 ## Connect with netctl
 
-These instructions will allow you to connect to PAL3.0 using netctl, the default network manager in Arch Linux
+These instructions will allow you to connect to PAL3.0 using netctl.
 
 Edit the file `/etc/netctl/PAL3` to resemble the following (fill in your own information for interface, identity, and password)
 
@@ -55,4 +67,4 @@ Description='PAL3.0-profile'
  )
 ```
 
-After doing this, you should be able to connect to PAL by running netctl switch-to PAL3
+After doing this, you should be able to connect to PAL by running `netctl switch-to PAL3`.
