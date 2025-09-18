@@ -43,3 +43,28 @@ AutoConnect=true
 ```
 
 After doing this, you should be able to connect to PAL by running `station *name* connect PAL3.0` in `iwctl`, where your wireless station name is found by running `device list`.
+
+## Connect with netctl
+
+These instructions will allow you to connect to PAL3.0 using netctl.
+
+Edit the file `/etc/netctl/PAL3` to resemble the following (fill in your own information for interface, identity, and password)
+
+```
+Description='PAL3.0-profile'
+ Interface=wlan0
+ Connection=wireless
+ Security=wpa-configsection
+ IP=dhcp
+ WPAConfigSection=(
+  'ssid="PAL3.0"'
+  'proto=RSN WPA'
+  'key_mgmt=WPA-EAP'
+  'auth_alg=OPEN'
+  'eap=PEAP'
+  'identity="username"'
+  'password="password"'
+ )
+```
+
+After doing this, you should be able to connect to PAL by running `netctl switch-to PAL3`.
