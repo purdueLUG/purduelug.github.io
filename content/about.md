@@ -26,7 +26,7 @@ td:first-child {
 | 2024-25 | Ersei Saggi          |                | Lily Siwik        | Lillith ---   |
 | 2023-24 | Logan Hickok-Dickson |                | Ersei Saggi       | Lily Siwik    |
 | 2022-23 | Caleb Berger         |                | Dominic Russo     | Dominic Russo |
-| 2021-22 | Larkin Nickle        | Dominic Yoder  | Caleb Berger      | Dominic Russo |
+| 2021-22 | Vivian Nickle        | Dominic Yoder  | Caleb Berger      | Dominic Russo |
 | 2020-21 | June Slater          | Dominic Yoder  | Caleb Berger      |               |
 | 2019-20 | Thomas Berryhill     | Dominic Yoder  | June Slater       |               |
 | 2018-19 | Amol Jha             | Dominic Yoder  | Parth Shelgaonkar |               |
